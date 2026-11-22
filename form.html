@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AltSchool Africa - Application Form</title>
+  </head>
+  <body id="top">
+    <!-- Global Navigation -->
+    <header>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Application Form</a></li>
+        </ul>
+      </nav>
+      <h1>AltSchool Africa Application</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Create Your Account</h2>
+        <p>
+          Please fill out the application details below to mirror the AltSchool
+          portal.
+        </p>
+
+        <!-- Application Form mirroring AltSchool portal structure -->
+        <form action="#" method="POST">
+          <div>
+            <label for="first-name">First Name:</label><br />
+            <input type="text" id="first-name" name="first_name" required />
+          </div>
+          <br />
+
+          <div>
+            <label for="last-name">Last Name:</label><br />
+            <input type="text" id="last-name" name="last_name" required />
+          </div>
+          <br />
+
+          <div>
+            <label for="email">Email Address:</label><br />
+            <input type="email" id="email" name="email" required />
+          </div>
+          <br />
+
+          <div>
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" required />
+          </div>
+          <br />
+
+          <div>
+            <label for="gender">Gender:</label><br />
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+          </div>
+          <br />
+
+          <div>
+            <label for="country">Country of Residence:</label><br />
+            <input type="text" id="country" name="country" required />
+          </div>
+          <br />
+
+          <div>
+            <label for="school">School of Choice:</label><br />
+            <select id="school" name="school">
+              <option value="engineering">School of Engineering</option>
+              <option value="product">School of Product</option>
+              <option value="data">School of Data</option>
+            </select>
+          </div>
+          <br />
+
+          <div>
+            <button type="submit">Submit Application</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <br />
+    <!-- Fragment identifier to scroll back to top -->
+    <p><a href="#top">Back to top</a></p>
+
+    <!-- Footer -->
+    <footer>
+      <address>
+        <p>
+          <strong> My Address:</strong>
+          Kubwa, FCT, Nigeria
+        </p>
+      </address>
+      <p>&copy; 2026 John Rehoboth Olukanni. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
